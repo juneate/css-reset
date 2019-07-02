@@ -157,6 +157,7 @@ sub {
 
 pre, code, kbd, samp, var {
   font-family: monospace, sans-serif;
+  font-size: 0.8em;
   cursor: text;
 }
 
