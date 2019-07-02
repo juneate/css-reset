@@ -12,7 +12,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   padding: 0;
   border: 0;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: inherit;
+  font-style: inherit;
   vertical-align: baseline;
   background: transparent;
 }
