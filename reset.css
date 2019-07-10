@@ -49,11 +49,11 @@ img, object, embed {
 ul {
   list-style: none;
 }
-ul.bullets {
+ul.bullets, ol {
   list-style: initial;
   padding-left: 4em;
 }
-ul.bullets ul, ul.bullets ol {
+ul.bullets ul, ul ol, ol ol {
   padding-left: 2em;
 }
 
