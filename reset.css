@@ -58,9 +58,6 @@ ul.bullets ul, ul ol, ol ol {
 }
 
 blockquote, q {
-  quotes: none;
-}
-blockquote.quotes, q.quotes{
   quotes: "“" "”" "‘" "’";
 }
 
