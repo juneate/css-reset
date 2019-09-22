@@ -182,6 +182,7 @@ button[disabled], input[disabled] {
 button, input[type="button"], input[type="submit"] { 
   width: auto;
   overflow: visible;
+  cursor: pointer;
 }
 
 .clearfix:after { 
