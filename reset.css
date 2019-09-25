@@ -47,10 +47,12 @@ img, object, embed {
 
 /* Set all un-ordered lists to unbulletted */
 ul {
-  list-style: none;
+  list-style-type: initial;
+}
+ol {
+  list-style-type: decimal;
 }
 ul.bullets, ol {
-  list-style: initial;
   padding-left: 4em;
 }
 ul.bullets ul, ul ol, ol ol {
