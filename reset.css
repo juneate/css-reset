@@ -170,6 +170,10 @@ input[type="radio"], input[type="checkbox"] {
   margin-top: -0.35em;
 }
 
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
 select, input, textarea, button {
   font: inherit;
   padding: 0;
