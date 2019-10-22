@@ -162,15 +162,15 @@ pre, code, kbd, samp, var {
   cursor: text;
 }
 
-.clickable, a[href], label[for], input[type="button"], input[type="submit"], input[type="checkbox"], input[type="radio"], input[type="file"], button {
+.clickable, [href], [for], [type="button"], [type="submit"], [type="checkbox"], [type="radio"], [type="file"], button {
   cursor: pointer;
 }
 
-input[type="radio"], input[type="checkbox"] {
+[type="radio"], [type="checkbox"] {
   margin-top: -0.35em;
 }
 
-input[type="search"] {
+[type="search"] {
   -webkit-appearance: textfield;
 }
 
@@ -180,12 +180,12 @@ select, input, textarea, button {
   margin: 0;
 }
 
-button[disabled], input[disabled] {
+[disabled], [disabled] {
   cursor: default;
 }
 
 /* make buttons play nice in IE */
-button, input[type="button"], input[type="submit"] { 
+button, [type="button"], [type="submit"] { 
   width: auto;
   overflow: visible;
   cursor: pointer;
