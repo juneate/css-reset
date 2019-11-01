@@ -47,7 +47,7 @@ img, object, embed {
 
 /* Set all un-ordered lists to unbulletted */
 ul {
-  list-style-type: initial;
+  list-style-type: none;
 }
 ol {
   list-style-type: decimal;
