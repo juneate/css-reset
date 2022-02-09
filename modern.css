@@ -1,0 +1,38 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+ul.ul {
+	list-style-type: disc;
+	padding-inline-start: 40px;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: bottom;
+}
+input, button, textarea, select {
+	font: inherit;
+}
+[href], [for], [type="button"], [type="submit"], [type="checkbox"], [type="radio"], [type="file"], button {
+	cursor: pointer;
+}
+[disabled], [disabled] {
+	cursor: default;
+}
